@@ -1,0 +1,25 @@
+{
+  "name": "lms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.15",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.6.5",
+    "node": "^6.17.1",
+    "promise": "^8.0.3",
+    "sequelize": "^5.10.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jason",
+  "license": "ISC"
+}
