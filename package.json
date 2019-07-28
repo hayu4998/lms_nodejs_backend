@@ -5,7 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "lodash": "^4.17.15",
     "mysql": "^2.15.0",
     "mysql2": "^1.6.5",
@@ -14,6 +14,8 @@
     "sequelize": "^5.10.3"
   },
   "devDependencies": {
+    "pkg": "^4.4.0",
+    "pkg-cli": "^0.3.0",
     "sequelize-cli": "^5.5.0"
   },
   "scripts": {
