@@ -2,6 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   const tbl_author = sequelize.define('tbl_author', {
     author_id:{
+      
       type: DataTypes.INTEGER,
       primaryKey: true
     }, 
